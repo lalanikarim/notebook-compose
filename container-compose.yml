@@ -1,0 +1,13 @@
+services:
+  notebook:
+    command: 
+      - "start.sh"
+      - "jupyter"
+      - "lab"
+      - "--LabApp.token="
+    image: docker.io/jupyter/tensorflow-notebook:latest
+    ports:
+      - "8888:8888"
+    volumes:
+      - ./container:/home:rw
+
