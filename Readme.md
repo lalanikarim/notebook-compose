@@ -32,7 +32,7 @@ Launching Jupyter Lab
 ---------------------
 
 1. Clone the repo or download the archive
-You may download the files as zip file from here [https://github.com/lalanikarim/notebook-compose/archive/refs/heads/main.zip] and extract files in a folder.  
+You may download the files as zip file from here <https://github.com/lalanikarim/notebook-compose/archive/refs/heads/main.zip> and extract files in a folder.  
 
 Alternatively, may clone the repo using the following command
 ```
@@ -55,4 +55,4 @@ Or
 podman-compose up
 ```
 
-3. Open Jupyter Lab in your browser by visiting [http://localhost:8888]
+3. Open Jupyter Lab in your browser by visiting <http://localhost:8888>
