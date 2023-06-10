@@ -6,10 +6,18 @@ Run [Jupyter Lab Notebooks](https://jupyter.org/) locally using containers.
 Why run Jupyter Lab locally?
 ----------------------------
 
-* Learn [python]()
+A few reasons to run Jupyter Lab locally include, but are not limited to:
 
-Why using containers?
+* Learn [python](https://www.python.org/)
+* Build and test AI/ML models locally
+* A free alternate to [Google Colab](https://colab.research.google.com/) and you keep all your files
+
+Why use containers?
 ---------------------
+
+While you can install and run Jupyter Lab locally on your computer by following simple instructions from [https://jupyter.org/install], your mileage will likely vary. The main issue you can potentially run into will be around your version of locally installed Python, and how updating Python or your OS may break any underlying dependencies. This will result in a disjointed and unreliable experience.
+
+Containers provide you with sandboxes that are unaffected by the host OS. Running Jupyter Lab within a container will mean that it will run predictably every time, unaffected by the changes to the host OS or any other system updates. It will also allow you to replicate your setup on any other computer where the container runtime is available.
 
 Prerequisites
 --------------
