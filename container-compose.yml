@@ -5,9 +5,11 @@ services:
       - "jupyter"
       - "lab"
       - "--LabApp.token="
+    environment:
+      - GRANT_SUDO=yes
     image: docker.io/jupyter/tensorflow-notebook:latest
     ports:
       - "8888:8888"
+    user: "0:100"
     volumes:
       - ./container:/home:rw
-
